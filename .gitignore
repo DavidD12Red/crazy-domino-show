@@ -1,32 +1,30 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+*.mode1v3
+*.pbxuser
+build/
+obj/
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+.DS_Store
+Debug/
+Release/
+.vs/
+html/
+latex/
+data/
+*.dll
+#*.lib
+*.ncb
+*.suo
+*.vcproj.*
+*.vcxproj.*
+*.sdf
+*.filters
+
+#codeblocks files
+*/*/*.layout
+*/*/*.depend
+
+Docs/html
+Docs/latex
+
+
